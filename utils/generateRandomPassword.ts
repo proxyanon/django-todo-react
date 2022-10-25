@@ -1,6 +1,6 @@
 export function generateRandomPassword(pwd_length: number): string {
     
-    let string = "abcdefghijklmnopqrstuvwxyz";
+    let string = "abcdefghijklmnopqrstuvwxyz"; // to upper
     let numeric = "0123456789";
     let punctuation = '!@#$%^&*()_+~`|}{[]\:;?><,./-=';
 
